@@ -1,0 +1,126 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    box-sizing: border-box;
+    width: 100% ;
+    height: 60px;
+    padding: 0 30px;
+}
+
+
+
+.header-nav-list {
+    display:  flex;
+    width: 100%;
+    
+}
+ 
+.header-nav-list a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.header-nav-item{
+    padding: 12px;
+    font-weight: bold;
+    text-align:  center;
+    list-style:  none;
+
+
+
+}
+.ooo{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.www{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.wrap{
+    width:  80%;
+    margin:0 auto 50px
+}
+ .around{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-right h3 , .about-right p{
+    margin-bottom: 15px;
+}
+.about-left , .about-right{
+    
+    width: 45%;
+    
+}
+#next {
+    width: auto;
+}
+.bigcolor{
+    background-color: wheat;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: -100;
+}
+.section-title{
+    
+    padding: 20px 0 ;
+    text-align: center;
+}
+.next-warp{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px 100px;
+    
+    }
+.next-cat{
+    width: 28%;
+    
+    }
+.img{
+    height: 40px;
+}
+.box{
+    
+    padding: 20px ;
+    box-sizing: border-box;
+    }
+    
+    #company{
+        padding: 40px 0 70px 0;
+
+    }
+    #company .contain{
+        border-collapse: collapse;
+        width: 75%;
+        margin: 0 auto;
+
+    }
+    #company table tr{
+        border-bottom: 1px solid #333333;
+    }
+    #company th, #company td{
+        text-align: left;
+    }
+    #company th{
+        padding: 10px 0;
+    }
+  
